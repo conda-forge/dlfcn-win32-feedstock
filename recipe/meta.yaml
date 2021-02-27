@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dlfcn-win32/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: f18a412e84d8b701e61a78252411fe8c72587f52417c1ef21ca93604de1b9c55
+  sha256: 24c69d43ddc9243fd2639a07495a7e0714278e8d3d0e124afdbab892dbb4a92d
 
 build:
   number: 0
