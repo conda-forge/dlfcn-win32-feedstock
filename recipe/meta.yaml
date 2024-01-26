@@ -1,13 +1,13 @@
 {% set name = "dlfcn-win32" %}
-{% set version = "1.3.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/dlfcn-win32/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 24c69d43ddc9243fd2639a07495a7e0714278e8d3d0e124afdbab892dbb4a92d
+  url: https://github.com/dlfcn-win32/dlfcn-win32/archive/v{{ version }}.tar.gz
+  sha256: 30a9f72bdf674857899eb7e553df1f0d362c5da2a576ae51f886e1171fbdb399
 
 build:
   number: 0
